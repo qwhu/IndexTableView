@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DC9A0941C2804A600FDDCBE /* pinyin.data in Resources */ = {isa = PBXBuildFile; fileRef = 5DC9A0931C2804A600FDDCBE /* pinyin.data */; };
+		5DC9A0971C2804D200FDDCBE /* PinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC9A0961C2804D200FDDCBE /* PinYin.m */; };
 		5DD881031C23FE9800D8DEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD881021C23FE9800D8DEA7 /* main.m */; };
 		5DD881061C23FE9800D8DEA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD881051C23FE9800D8DEA7 /* AppDelegate.m */; };
 		5DD881091C23FE9800D8DEA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD881081C23FE9800D8DEA7 /* ViewController.m */; };
 		5DD8810C1C23FE9800D8DEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8810A1C23FE9800D8DEA7 /* Main.storyboard */; };
 		5DD8810E1C23FE9800D8DEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8810D1C23FE9800D8DEA7 /* Assets.xcassets */; };
 		5DD881111C23FE9800D8DEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8810F1C23FE9800D8DEA7 /* LaunchScreen.storyboard */; };
+		5DD8811E1C24088800D8DEA7 /* IndexTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8811D1C24088800D8DEA7 /* IndexTableView.m */; };
+		5DD881211C2408A300D8DEA7 /* IndexBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD881201C2408A300D8DEA7 /* IndexBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DC9A0931C2804A600FDDCBE /* pinyin.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pinyin.data; sourceTree = "<group>"; };
+		5DC9A0951C2804D200FDDCBE /* PinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin.h; sourceTree = "<group>"; };
+		5DC9A0961C2804D200FDDCBE /* PinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYin.m; sourceTree = "<group>"; };
 		5DD880FE1C23FE9800D8DEA7 /* IndexTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndexTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD881021C23FE9800D8DEA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DD881041C23FE9800D8DEA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,10 @@
 		5DD8810D1C23FE9800D8DEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DD881101C23FE9800D8DEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DD881121C23FE9800D8DEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD8811C1C24088800D8DEA7 /* IndexTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexTableView.h; sourceTree = "<group>"; };
+		5DD8811D1C24088800D8DEA7 /* IndexTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexTableView.m; sourceTree = "<group>"; };
+		5DD8811F1C2408A300D8DEA7 /* IndexBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexBar.h; sourceTree = "<group>"; };
+		5DD881201C2408A300D8DEA7 /* IndexBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +69,14 @@
 		5DD881001C23FE9800D8DEA7 /* IndexTableView */ = {
 			isa = PBXGroup;
 			children = (
+				5DD881191C2407D100D8DEA7 /* IndexTableViewKit */,
 				5DD881041C23FE9800D8DEA7 /* AppDelegate.h */,
 				5DD881051C23FE9800D8DEA7 /* AppDelegate.m */,
 				5DD881071C23FE9800D8DEA7 /* ViewController.h */,
 				5DD881081C23FE9800D8DEA7 /* ViewController.m */,
+				5DC9A0951C2804D200FDDCBE /* PinYin.h */,
+				5DC9A0961C2804D200FDDCBE /* PinYin.m */,
+				5DC9A0931C2804A600FDDCBE /* pinyin.data */,
 				5DD8810A1C23FE9800D8DEA7 /* Main.storyboard */,
 				5DD8810D1C23FE9800D8DEA7 /* Assets.xcassets */,
 				5DD8810F1C23FE9800D8DEA7 /* LaunchScreen.storyboard */,
@@ -77,6 +92,17 @@
 				5DD881021C23FE9800D8DEA7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DD881191C2407D100D8DEA7 /* IndexTableViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8811C1C24088800D8DEA7 /* IndexTableView.h */,
+				5DD8811D1C24088800D8DEA7 /* IndexTableView.m */,
+				5DD8811F1C2408A300D8DEA7 /* IndexBar.h */,
+				5DD881201C2408A300D8DEA7 /* IndexBar.m */,
+			);
+			path = IndexTableViewKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +164,7 @@
 			files = (
 				5DD881111C23FE9800D8DEA7 /* LaunchScreen.storyboard in Resources */,
 				5DD8810E1C23FE9800D8DEA7 /* Assets.xcassets in Resources */,
+				5DC9A0941C2804A600FDDCBE /* pinyin.data in Resources */,
 				5DD8810C1C23FE9800D8DEA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC9A0971C2804D200FDDCBE /* PinYin.m in Sources */,
 				5DD881091C23FE9800D8DEA7 /* ViewController.m in Sources */,
 				5DD881061C23FE9800D8DEA7 /* AppDelegate.m in Sources */,
+				5DD8811E1C24088800D8DEA7 /* IndexTableView.m in Sources */,
+				5DD881211C2408A300D8DEA7 /* IndexBar.m in Sources */,
 				5DD881031C23FE9800D8DEA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +328,7 @@
 				5DD881171C23FE9800D8DEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
